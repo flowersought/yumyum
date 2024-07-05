@@ -4,8 +4,8 @@ import TelegramWidget from './TelegramWidget';
 
 const widgetConfigs = [
   { post: 'yahooboohoo', width: '80%', userpic: 'true' },
-  { post: 'yahooboohoo/5', width: '100%', userpic: 'true' },
-  { post: 'yahooboohoo/6', width: '100%', userpic: 'true' },
+  { post: 'yahooboohoo/5', width: '80%', userpic: 'true' },
+  { post: 'yahooboohoo/6', width: '80%', userpic: 'true' },
   // Add more widget configurations here
 ];
 

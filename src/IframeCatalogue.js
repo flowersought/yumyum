@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const IframeCatalogue = () => {
   return (
     <div>
@@ -7,11 +8,10 @@ const IframeCatalogue = () => {
         <iframe
           key={n}
           src={`https://t.me/yahooboohoo/${1 + n}?embed=1`}
-          frameborder="10"
-          width="90%"
-          height= 'auto'  // Adjust the height as needed
-          style={{ marginBottom: '1px' }}
-          
+          frameBorder="0"
+          width="28%"
+          height="640px" // Adjust the height as needed
+          style={{ marginBottom: '20px' ,marginLeft: '10px'}}
         />
       ))}
     </div>
