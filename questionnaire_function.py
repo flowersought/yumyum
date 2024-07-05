@@ -6,7 +6,7 @@ import datetime
 import keep_alive
 from replit import db
 
-TOKEN = "7413805457:AAH4Gi41ECmrjIONUf2ZtN-hzRZCEul9G74"
+TOKEN = ""
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
