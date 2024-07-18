@@ -3,12 +3,12 @@
 .button {
     border-radius: 10px;
     background-color: #24A1DE;
-    background: linear-gradient(#24A1DE,#6bb3dd);
+    background: linear-gradient(#050505,#000000);
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 25px;
-    font-family: Roboto, sans-serif;
+    font-family: "DM Serif Text", sans-serif;
     padding: 20px;
     width: 300px;
     transition: all 0.5s;

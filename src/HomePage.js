@@ -10,7 +10,9 @@ const HomePage = () => {
         <h3> welcome to the home page :)</h3>
         <br></br>
       </div>
-      <IframeCatalogue />
+      <div>
+        <IframeCatalogue />
+      </div>
     </div>
   );
 };
