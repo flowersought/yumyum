@@ -29,6 +29,8 @@ h1 {
 .App-header {
   background:linear-gradient(0deg,rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(https://i.imgur.com/t8Eaxx4.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
