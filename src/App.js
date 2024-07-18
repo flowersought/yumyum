@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './button.css';
-import TelegramEmbed from 'react-telegram-embed';
 import HomePage from './HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
