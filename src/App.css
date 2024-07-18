@@ -2,6 +2,11 @@ h1 {
   font-size: 6rem !important;
 }
 
+text {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+}
+
 .App {
   text-align: center;
   animation: fade 6s ease forwards; 
@@ -21,6 +26,14 @@ h1 {
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 .dm-serif-text-regular {
   font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*poppins font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
