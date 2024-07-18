@@ -1,3 +1,7 @@
+h1 {
+  font-size: 6rem !important;
+}
+
 .App {
   text-align: center;
   animation: fade 6s ease forwards; 
@@ -38,6 +42,8 @@
 .App-link {
   color: #003a56;
 }
+
+
 
 /*scroll*/
 @keyframes fade{

@@ -1,5 +1,5 @@
 import React from 'react';
-import './iframe.css'
+import './iframe.css';
 
 const IframeCatalogue = () => {
   return (
