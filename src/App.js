@@ -14,38 +14,25 @@ function App() {
     <div className="App">
       <Navbar/>
       <header className="App-header">
-        {/* <TelegramWidget /> */}
         <p>
         <div>
-          <HomePage />
+          <Main/>
         </div>
         </p>
-        
-        <a
-          className="App-link" /*now links to the bot*/
-          href="https://t.me/buffetclearerbot"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button class="button"><span>Message the bot!</span></button>
-        </a>
+
+          <a
+              className="App-link" /*now links to the bot*/
+              href="https://t.me/buffetclearerbot"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button class="button"><span>Message the bot!</span></button>
+          </a>
         <br></br>
         <br></br>
       </header>
     </div>
   );
 }
-
-
-const Navigation = () => (
-  <nav>
-    <ul>
-      <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to='/about'>About</NavLink></li>
-      <li><NavLink to='/contact'>Contact</NavLink></li>
-    </ul>
-  </nav>
-);
 
 const Main = () => (
   <Switch>
@@ -54,6 +41,5 @@ const Main = () => (
     <Route exact path='/halal' component={halal}></Route>
   </Switch>
 );
-
 
 export default App;
