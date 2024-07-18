@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './button.css';
 import './scrollbar.css';
-import HomePage from './HomePage';
+import HomePage from './pages/homepage.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar';
 
