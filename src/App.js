@@ -4,11 +4,13 @@ import './button.css';
 import './scrollbar.css';
 import HomePage from './HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './navbar';
 
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         {/* <TelegramWidget /> */}
         <p>
