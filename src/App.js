@@ -18,8 +18,8 @@ function App() {
         </p>
         
         <a
-          className="App-link" /*placeholder link*/
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+          className="App-link" /*now links to the bot*/
+          href="https://t.me/buffetclearerbot"
           target="_blank"
           rel="noopener noreferrer"
         >
