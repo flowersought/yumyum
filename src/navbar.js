@@ -6,6 +6,7 @@ const Navbar = () => {
 
 <nav className="navbar">
   <div className="navbar-left">
+    <img src="https://i.imgur.com/GpndxmF.jpeg" alt="icon" width={35} style={{marginTop: 0, marginBottom: 8, marginRight: 6}}/>
     <a href="/" className="logo">
       buffet clearers
     </a>

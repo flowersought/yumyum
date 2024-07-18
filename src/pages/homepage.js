@@ -7,10 +7,10 @@ const HomePage = () => {
     <div>
       <br></br>
       <br></br>
-      <h1>buffet clearers</h1>
+      <h1>homepage</h1>
       <div>
       <br></br>
-        <text> welcome to the home page :)</text>
+        <text> check out some food!</text>
         <br></br>
         <br></br>
         <br></br>
