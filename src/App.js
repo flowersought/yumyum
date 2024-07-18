@@ -3,9 +3,11 @@ import './App.css';
 import './button.css';
 import './scrollbar.css';
 import HomePage from './pages/homepage.js';
+import vegetable from './pages/vegetable.js';
+import halal from './pages/halal.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar';
-
+import { NavLink, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -33,5 +35,25 @@ function App() {
     </div>
   );
 }
+
+
+const Navigation = () => (
+  <nav>
+    <ul>
+      <li><NavLink to='/'>Home</NavLink></li>
+      <li><NavLink to='/about'>About</NavLink></li>
+      <li><NavLink to='/contact'>Contact</NavLink></li>
+    </ul>
+  </nav>
+);
+
+const Main = () => (
+  <Switch>
+    <Route exact path='/' component={HomePage}></Route>
+    <Route exact path='/vegetable' component={vegetable}></Route>
+    <Route exact path='/halal' component={halal}></Route>
+  </Switch>
+);
+
 
 export default App;

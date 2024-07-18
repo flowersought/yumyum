@@ -1,7 +1,6 @@
 // HomePage.js
 import React from 'react';
 import IframeCatalogue from '../IframeCatalogue';
-import '../App.css';
 
 const HomePage = () => {
   return (
