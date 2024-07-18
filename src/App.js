@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-// import TelegramWidget from './TelegramWidget';
-//import './styles.css';
+import './button.css';
 import TelegramEmbed from 'react-telegram-embed';
 import HomePage from './HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          message the bot 
+          <button class="button"><span>Message the bot!</span></button>
         </a>
         <br></br>
         <br></br>
