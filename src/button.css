@@ -44,7 +44,11 @@
   /*more button */
   /* Animation property */
   button {
-    animation: wiggle 2s linear infinite 10s;
+    animation-name: wiggle;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
   
   /* Keyframes */
@@ -52,22 +56,22 @@
     0%, 7% {
       transform: rotateZ(0);
     }
-    15% {
-      transform: rotateZ(-12deg);
+    10% {
+      transform: rotateZ(-6deg);
     }
-    20% {
-      transform: rotateZ(8deg);
-    }
-    25% {
-      transform: rotateZ(-8deg);
-    }
-    30% {
+    12% {
       transform: rotateZ(4deg);
     }
-    35% {
+    14% {
+      transform: rotateZ(-4deg);
+    }
+    16% {
+      transform: rotateZ(2deg);
+    }
+    18% {
       transform: rotateZ(-2deg);
     }
-    40%, 100% {
+    20%, 100% {
       transform: rotateZ(0);
     }
   }
