@@ -1,16 +1,21 @@
 // HomePage.js
 import React from 'react';
 import IframeCatalogue from './IframeCatalogue';
+import './App.css';
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Homepage</h1>
+      <br></br>
+      <h1>buffet clearers</h1>
       <div>
-        <h3> welcome to the home page :)</h3>
+        <text> welcome to the home page :)</text>
+        <br></br>
         <br></br>
       </div>
-      <IframeCatalogue />
+      <div>
+        <IframeCatalogue />
+      </div>
     </div>
   );
 };
