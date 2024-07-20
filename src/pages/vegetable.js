@@ -1,5 +1,5 @@
 import React from 'react';
-import IframeCatalogue from '../IframeCatalogue';
+import Iframeveg from '../Iframeveg';
 
 
 const vegetable = () => {
@@ -13,7 +13,7 @@ const vegetable = () => {
           <br></br>
         </div>
         <div>
-          <IframeCatalogue />
+          <Iframeveg />
         </div>
       </div>
     );

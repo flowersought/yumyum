@@ -1,9 +1,10 @@
 .bubble-child {
   margin-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  width: 22%;
-  height: 650px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 500px;
+  height: 600px;
+  block-size: 400px;
 }
 
 /* .bubble {

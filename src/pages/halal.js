@@ -1,5 +1,5 @@
 import React from 'react';
-import IframeCatalogue from '../IframeCatalogue';
+import Iframehalal from '../Iframehalal';
 
 const halal = () => {
     return (
@@ -12,7 +12,7 @@ const halal = () => {
           <br></br>
         </div>
         <div>
-          <IframeCatalogue />
+          <Iframehalal />
         </div>
       </div>
     );
