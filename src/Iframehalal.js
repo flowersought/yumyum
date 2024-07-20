@@ -52,7 +52,7 @@ const IframeHalal = () => {
           />
         ))
       ) : (
-        <p>No matching posts found.</p>
+        <p>Loading...</p>
       )}
     </div>
   );
